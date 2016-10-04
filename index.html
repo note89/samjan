@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Kollektivet | Sämjan</title>
+
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="assets/images/own/favicon.ico">
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="assets/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+    <!-- owl carousel css -->
+    <link href="assets/js/owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link href="assets/js/owl-carousel/owl.theme.css" rel="stylesheet">
+    <link href="assets/js/owl-carousel/owl.transitions.css" rel="stylesheet">
+    <!-- intro animations -->
+    <link href="assets/js/wow/animate.css" rel="stylesheet">
+    <!-- font awesome -->
+    <link href="assets/css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- lightbox -->
+    <link href="assets/js/lightbox/css/lightbox.css" rel="stylesheet">
+
+    <!-- styles for this template -->
+    <link href="assets/css/styles.css" rel="stylesheet">
+
+    <!-- place your extra custom styles in this file -->
+    <link href="assets/css/custom.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- background image overlay (semi transparent dark background image overlay) -->
+    <!-- comment or remove if you don't want the overlay on top of the image -->
+    <div class="background-image-overlay"></div>
+
+    <!-- outer background container - the element from where the default page background image is set, and the element which changes its background when scrolling through other sections (.section-wrapoer) that have attribute "data-custom-background-img" set.
+     - data-default-background-img attr is required for sections (.section-wrapper) below that have no custom background defined.
+     - use same image in the backstretch.js code in the footer for IE8 or less browsers -->
+    <div id="outer-background-container" data-default-background-img="assets/images/other_images/bg5.jpg" style="background-image:url(assets/images/other_images/bg5.jpg);"></div>
+    <!-- end: #outer-background-container -->
+
+    <!-- Outer Container -->
+    <div id="outer-container">
+
+      <!-- Left Sidebar -->
+      <section id="left-sidebar">
+
+        <!-- ==================================================================
+        LOGO
+        ==================================================================  -->
+        <!-- change the img src to your logo -->
+        <div class="logo">
+          <a href="#intro" class="link-scroll"><img src="assets/images/own/logo.png" alt="Twilli Air"></a>
+        </div><!-- .logo -->
+        <!-- ==================== END: LOGO ==================== -->
+
+        <!-- Menu Icon for smaller viewports -->
+        <div id="mobile-menu-icon" class="visible-xs" onClick="toggle_main_menu();"><span class="glyphicon glyphicon-th"></span></div>
+
+        <!-- ==================================================================
+        MAIN MENU
+        ==================================================================  -->
+        <!-- Each menu item links to a section (<article class="section-wrapper...") in the main content below.
+             - set each <li> id to this format: "menu-item-[the id of the .section-wrapper to link to]".
+             - set href of each <a> to the id of the .section-wrapper to link to -->
+        <ul id="main-menu">
+          <li id="menu-item-text" class="menu-item scroll"><a href="#text">StartSida</a></li>
+          <li id="menu-item-carousel" class="menu-item scroll"><a href="#carousel">Om oss</a></li>
+          <li id="menu-item-grid" class="menu-item scroll"><a href="#grid">Värdegrund</a></li>
+          <li id="menu-item-contact" class="menu-item scroll"><a href="#contact">Kontakt</a></li>
+          <!-- to include a link which doesn't scroll to a section inside the page, remove the .scroll class from the <li> - example below -->
+          <!-- <li id="menu-item-alt-page" class="menu-item"><a href="http://www.link.com">Outer Link</a></li> -->
+        </ul><!-- #main-menu -->
+        <!-- ==================== END: MAIN MENU ==================== -->
+
+      </section><!-- #left-sidebar -->
+      <!-- end: Left Sidebar -->
+
+      <!-- ==================================================================
+      MAIN CONTENT
+      ==================================================================  -->
+      <!-- all the website sections are contained in the <article> tag with class ".section-wrapper" and a unique id.
+           - to edit / remove / create website sections, you have to handle the content contained in these <article> tags -->
+      <section id="main-content" class="clearfix">
+
+        <!-- ==================== SECTION TYPE: Intro Text ==================== -->
+        <!-- This type of section should contain heading and intro paragraph. It can also include links to other sections -->
+        <!-- FOR EACH SECTION <article class="section-wrapper".. :
+             - remember to use a unique id,
+             - (optional) set a "data-custom-background-img" attribute with a link to custom background image which will be used when the viewer scrolls to this section -->
+        <article id="intro" class="section-wrapper clearfix" data-custom-background-img="assets/images/own/samjan_background.jpg">
+          <div class="content-wrapper clearfix wow fadeInDown" data-wow-delay="0.3s">
+            <div class="col-sm-10 col-md-9 pull-right">
+
+              <!-- Start: Section content to edit -->
+
+                <!-- <p> text in .feature-text is larger  -->
+                <section class="feature-text">
+                  <h1>SÄMJAN</h1>
+                  <p>Boendekollektiv i Växjö sedan 1976</p>
+                  <!-- to add scrolling effects to links linking to same page section, add .link-scroll class -->
+                  <p><a href="#text" class="link-scroll btn btn-outline-inverse btn-lg">Välkommen in</a></p>
+                </section>
+
+              <!-- End: Section content to edit -->
+
+            </div><!-- .col-sm-10 -->
+          </div><!-- .content-wrapper -->
+        </article><!-- .section-wrapper -->
+        <!-- ==================== END: SECTION TYPE: Intro Text ==================== -->
+
+        <!-- ==================== SECTION TYPE: Text / Generic ==================== -->
+        <!-- This type of section should contain generic content (text, image, etc) -->
+        <!-- FOR EACH SECTION <article class="section-wrapper".. :
+             - remember to use a unique id,
+             - (optional) set a "data-custom-background-img" attribute with a link to custom background image which will be used when the viewer scrolls to this section -->
+        <article id="text" class="section-wrapper clearfix" data-custom-background-img="assets/images/own/boardgame.jpg">
+          <div class="content-wrapper clearfix">
+            <div class="col-sm-10 col-md-9 pull-right">
+
+              <!-- Start: Section content to edit -->
+
+                <h1 class="section-title">Välkommen till Sämjan!</h1>
+
+                <p class="feature-paragraph"><img data-img-src="assets/images/own/dove.png" class="lazy pull-right img-circle" alt="dove">
+                Boendekollektivet som sedan 1976 har samlat unga som gamla som söker en alternativ boendeform i gemenskapens tecken. Här kan du som är nyfiken och intresserad av oss få reda på hur vi lever, bor och vilka vi är.
+                Så välkommen att titta runt och om du är intresserad tveka in att slå en pling eller titta över på en kopp kaffe.</p>
+                <!-- <h4>Duis dictum lorem metus</h4>
+                <p>Suspendisse molestie lorem odio, sit amet. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio. Etiam scelerisque lacus tempor, rhoncus diam vel, gravida felis. Fusce tristique sem et leo. Pellentesque sed malesuada turpis. Quisque eget lacus sit amet dui.</p> -->
+                <!-- to make a popup/modal link add an onClick function call to the function:
+                     - populate_and_open_modal(event, '[id of popup content container - see below]') -->
+                <p><a href="#carousel" class="link-scroll btn btn-outline-inverse btn-lg">Mer om oss</a></p>
+
+
+              <!-- End: Section content to edit -->
+
+            </div><!-- .col-sm-10 -->
+          </div><!-- .content-wrapper -->
+        </article><!-- .section-wrapper -->
+        <!-- ==================== END: SECTION TYPE: Text / Generic ==================== -->
+
+        <!-- ==================== SECTION TYPE: Carousel ==================== -->
+        <!-- This type of section should contain slides with an icon, text, and an optional button -->
+        <!-- FOR EACH SECTION <article class="section-wrapper".. :
+             - remember to use a unique id,
+             - (optional) set a "data-custom-background-img" attribute with a link to custom background image which will be used when the viewer scrolls to this section -->
+        <article id="carousel" class="section-wrapper clearfix" data-custom-background-img="assets/images/own/group_photo_mod.jpg">
+          <div class="content-wrapper clearfix">
+
+            <!-- Start: Section content to edit -->
+
+              <!-- the carousel is initialised in the initialise-functions.js file, using the id of the container .carousel below -->
+              <div id="features-carousel" class="carousel slide with-title-indicators max-height" data-height-percent="70" data-ride="carousel">
+
+                <!-- Indicators - slide navigation -->
+                <!-- each slide should have data-slide-to set to the index of the slide (starting from 0), and a short title link for the slide -->
+                <ol class="carousel-indicators title-indicators">
+                  <li data-target="#features-carousel" data-slide-to="0" class="active">Historik</li>
+                  <li data-target="#features-carousel" data-slide-to="1">Huset</li>
+                  <li data-target="#features-carousel" data-slide-to="2">Att bo på sämjan?</li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+
+                  <!-- CAROUSEL SLIDE 1 -->
+                  <div class="item active">
+                    <div class="carousel-text-content">
+                      <!-- start: slide content to edit -->
+                      <img src="assets/images/own/web_clock.png" class="icon" alt="Lorem Ipsum">
+                      <!-- if you want to use bootstrap glyphicons instead, replace the above <img> with the commented <span> below -->
+                      <!-- <span class="icon glyphicon glyphicon-record"></span> -->
+                      <h2 class="title">Historik</h2>
+                      <p>Kollektivet finns i fastigheten Fortuna 4, som inköptes av mig Ingemar Haraldsson 1972. Boningshuset hade tre våningar och bestod då av tre trerumslägenheter och fem enrummare...</p>
+                      <!-- to make a popup/modal link add an onClick function call to the function:
+                        - populate_and_open_modal(event, '[id of popup content container - see below]') -->
+                      <p><a href="" onclick="populate_and_open_modal(event, 'modal-content-2');" class="btn btn-outline-inverse btn-sm">läs mer</a></p>
+
+                      <!-- content which will be shown in the popup/modal when clicking on the above link
+                        - it is important to set a unique id -->
+                      <div class="content-to-populate-in-modal" id="modal-content-2">
+                        <h1>Historik</h1>
+                        <p><img data-img-src="assets/images/own/web_clock.png" class="lazy rounded_border hover_effect pull-left" alt="Lorem Ipsum">Historik för kollektivet Sämjan
+
+<p>Kollektivet finns i fastigheten Fortuna 4, som inköptes av mig Ingemar Haraldsson 1972. Boningshuset hade tre våningar och bestod då av tre trerumslägenheter och fem enrummare. På tomten fanns även en byggnad med torrdass och en med vedbodar. Huset saknade såväl toaletter som varmvatten. Lägenheterna hade kakelugnar, men även elektriska element. Huset var extremt nerslitet.</p>
+
+<p>Jag har själv bott där sedan min skilsmässa1974. Då hade jag hört talas om kollektivboende och tyckte att det verkade bra. Men själv hade jag aldrig bott i kollektiv, och kände inga som hade det. Eftersom huset var i behov av en grundlig renovering tänkte jag att det var bättre att redan från början anpassa planlösningen för kollektivboende. Jag sökte i en annons intresserade av kollektivboende, och fick ett tiotal svar. Då gjorde jag en ritning om hur jag ville ha det och sökte byggnadslov och banklån. På den tiden fanns statliga bostadslån till låg ränta, 5 %, medan vanliga banklån hade räntor på 12 – 15 %. Men det gick inte att få statliga lån om det inte fanns kök och badrum i alla lägenheter. Man skulle tydligen sitta ensam i en lägenhet och titta på TV, inte bo i kollektiv. Att förse alla rum med egna kök och badrum skulle bli svindyrt och dessutom gå mot idén med kollektiv. Jag fick nöja mig med dyra banklån, och sökte lån på 250 000 kr.</p>
+
+<p>Det var svårare än jag trodde. Bara 100 000 fick jag låna p.g.a. kreditrestriktioner. Jag får nog låna mera senare trodde jag och började renoveringen. Lånet plus min del av villan vi ägde före skilsmässan räckte till nya fönster i hela huset, isolering och plåtbeklädnad, dessutom till köket med varmvatten och ett par toaletter. Det var hösten 1976. Sedan stod jag med ett halvfärdigt hus. Alla intresserade medlemmar hade hoppat av. Det gick att bo där om man inte hade så höga krav. Men de jag fick tag på var inga bra kollektivmedlemmar, bara ”flummare” som mest satt och rökte hasch. Det var mest sådana som hade svårt att klara av vanliga hyreslägenheter. Jag sökte frenetiskt efter nya lån. Lite fick jag tag på, små lån från mina föräldrar, en morbror mm. Några mindre banklån fick jag omsider. Lite i taget kunde jag renovera så att det blev mer beboeligt. Det blev åtta enheter, varav tre hade två rum. Halva bottenvåningen förblev skilt från kollektivet. Redan från början hade två rum slagits samman till vårt allrum på 40 m².</p>
+
+<p>Det var gott om kollektiv på den tiden. På vintern -78 var vi alla på Sämjan med på en träff i en nerlagd skola utanför Lessebo med småländska kollektiv. Det var ett femtontal kollektiv som alla upphörde efter några år.  Sommaren 1978 hade alla på Sämjan flyttat ut förutom ett par någorlunda bra kollektivmedlemmar.</p>
+
+<p>Nu måste jag ha is i magen tänkte jag, och bara ta in pålitligt folk som hade jobb eller studerade. Det lyckades verkligen. Vi blev ett bra gäng som trivdes tillsammans. Nu var vi ett riktigt kollektiv, med folk som betalade sina hyror. Sämjan blev ett begrepp. Vi var centrum för nejsidan i folkomröstningen om kärnkraft. Härifrån gick vi ut och knackade dörr på Söder. Vi blev också ett centrum för matinköp från ekologiska grossister.</p>
+
+<p>På åttiotalet uppstod ett kollektiv i ett gammalt hus i centrala Växjö. Inspirerade av oss kallade de sig Vemjan. De var alla med i VEM, Växjö Energi- och Miljögrupp. Vi samarbetade mycket och hade fester och sammanträden tillsammans. De flesta på Sämjan var också med i VEM. Då hade kollektivet en klar vänsterprägel. Ett år gick vi alla med i VPK:s förstamajtåg.</p>
+
+<p>Ganska tidigt rev vi vedbodarna och fick då ett litet trädgårdsland. Jag kunde också köpa till en remsa av granntomten, där vi satte bärbuskar och sedermera gjorde en drivbänk.</p>
+
+<p>Direktverkande elvärme passade inte in i vår filosofi, men på grund av det höga ränteläget skulle det bli för dyrt att införa centralvärme. Men på mitten av 90-talet sjönk räntorna från 12 – 15 % ner till cirka 5 %. Då kunde jag göra denna investering. Längs sydgaveln i källaren grävde jag ut och skapade ett pannrum. Från många olika håll fick jag tag på begagnade värmeelement som bättre passade in i vår miljö än de moderna plana. 1996 drog jag själv in vattenburen värme i hela huset. En rörmokare installerade vedpanna och en stor ackumulatortank i pannrummet. I oktober 1996 kopplades centralvärmen in.</p>
+
+<p>Vedeldningen visade sig vara problematisk. Första vintern upptogs hela parkeringsplatsen av en jättestor vedhög. Att elda vedpannan var nästan ett heltidsjobb. Det var svårt att få tag på torr ved, och pannan slocknade lätt. Då liknade skorstenen en vulkan, veden förgasades alltså utan att antändas. År 2000 drog VEAB in fjärrvärmenät i stadsdelen och vi kunde ersätta vedpannan och den jättelika ackumulatortanken med fjärrvärme.</p>
+
+<p>På hösten 1998 upptäcktes att lägenheten på bottenvåningen (som inte tillhör kollektivet) var angripen av hussvamp. Vid installeringen av avlopp hade rörmokaren inte fått tätt. Det hade läckt lite från golvbrunnen så att hussvamp hade uppstått. Den hade spridit sig till bjälklaget i tre rum och till skorstenen. Svampen äter trä och murbruk. Om den fått fortsätta hade huset delvis rasat samman. Det blev ett mycket omfattande renoveringsarbete, som därför indirekt även drabbade kollektivet.</p>
+
+<p>Solidaritet med utsatta människor har alltid varit en grund för kollektivet. Vi gömde en ugandisk flykting här åren 1991 – 1993. Då hade förhållandena förbättrats i hemlandet så pass att han kunde återvända. Han var händig och hjälpte mig med renoveringsarbeten. Isoleringen mot yttertaket var inte rätt gjort, varför vi efter en byggsakkunnigs anvisningar gjorde en luftspalt mellan tak och isolering. Han trivdes bra här och har återkommit två gånger, då han hjälpt till med underhåll av huset.  Tio år senare gömde vi en hel bosnisk familj med tre barn här. Mannen som var slöjdlärare var mycket händig och kunde hjälpas oss. De vågade återvända till Bosnien 2006 och har klarat sig bra.</p>
+
+<p>År 2002 bodde två polska flickor här några månader. De hjälpte mig att öppna upp Balkongsviten mot yttertaket så att ett sovloft kunde skapas över den inre halvan av rummet och öppet till taket i resten.</p>
+
+<p>Vi hade saknat en balkong. År 2005 byggde jag själv en stor balkong med dörr ut från allrummet. Ena halvan hade tak och fönster. Det var gamla treglasfönster som vi förut hade bytt ut mot nya.</p>
+
+<p>Året efter utökade jag tredje våningen. Genom att bygga ut en del med snedtak till full takhöjd skapades två nya rum.</p>
+
+<p>Det gamla uthuset som varit torrdass har använts som förråd och redskapsskjul. Det rev jag och byggde ett nytt och betydligt större 2008.</p>
+
+<p>På hösten 2009 blev det brand pga. oförsiktighet med vinkelslip. Pappen mellan väggplåt och isolering brann på en del av gårdssidan. Brandkåren lyckades släcka innan elden fick fäste i trävirket. Men plåten de rev ner fick ersättas med ny på hela gårdssidan. Och vi fick rena med ozon för att få bort röklukten. Den mest omfattande följden blev ändå att vi ålades av brandmyndigheten att kläda hela trapphuset med gipsplattor, även trappans undersida. Och brandklassade dörrar fick vi avskärma trappan med på varje våningsplan. Detta gjorde jag tillsammans med en byggnadsarbetare. Det blev ju en del damm vid hantering av gipsplattor och spackelslipning, och de boende krävde hyresnedsättning. Totalt blev det en avsevärd skuldökning för kollektivet. Samtidigt gick en byggfirma igenom och åtgärdade alla ställen där trä var i kontakt med betong, så att fukt kunde skapa mögel. Detta för att det kunde kännas en mögellukt på vissa ställen.</p>
+
+<p>Jag äger fastigheten ensam. Jag vill att kollektivet ska fortsätta efter mitt frånfälle. Ska jag överlåta huset till ett väsentligt nedsatt pris vill jag vara någorlunda säker på att kollektivet kommer att fortsätta. Därför har vi jobbat flera år på att skapa en stiftelse, mest bestående av gamla pålitliga kollektivmedlemmar, som ska äga huset. Det har visat sig vara mycket svårt. För närvarande försöker jag hitta någon som vill gå in som delägare.</p>
+
+<p>En kollektivmedlem mådde inte så bra här. När hon var borta några dagar blev hon bättre, men sämre när hon kom tillbaka. Det visade sig att hon hade mögelallergi. Även andra visade symptom. Det måste tydligen finnas någon mögelkälla i huset. För att hitta den – eller dem – anlitade vi tre olika konsultfirmor, från Växjö, Kalmar och Göteborg. Riktigt, synligt mögel fanns bara på ett ställe, under en läckande diskmaskin. De fann också fukt på ett par ställen som med tiden kunnat orsaka mögel. Allt sådant byttes givetvis ut. Hösten 2014 anlitade vi en extremt mögelkänslig kvinna, som fick gå igenom hela huset. Hon kände ingen mögellukt någonstans och inte heller något illamående, som hon ofelbart skulle ha känt om det funnits något mögel. Ingen av de boende hade heller känt något symptom. Vi ansåg att vi nu kan avskriva mögelrisken.</p>
+
+<p>Under årens lopp har cirka 300 bott på kollektivet. Det kan bli mycket bra stämning – och mycket dålig, beroende på vilka som bor här. Det är viktigt att det är rätt typ av människor och som passar någorlunda bra ihop. Allra värst var det i början av 2011, då jag allvarligt funderade på att säga upp alla och sälja fastigheten. Eftersom alla ville vara kvar beslöt jag då att ge kollektivet en chans till. Alla insåg allvaret, och det blev bättre och bättre. Hösten 2014 har vi blivit en väl sammansvetsad grupp som trivs med varandra. Allt fungerar som det ska igen.</p>
+                      </div><!-- #modal-content-2 -->
+                      <!-- end: slide content to edit -->
+                    </div>
+                  </div><!-- .item -->
+                  <!-- END: CAROUSEL SLIDE 1 -->
+
+                  <!-- CAROUSEL SLIDE 2 -->
+                  <div class="item">
+                    <div class="carousel-text-content">
+                      <!-- start: slide content to edit -->
+                      <img src="assets/images/own/house-md.png" class="icon" alt="Lorem Ipsum">
+                      <!-- if you want to use bootstrap glyphicons instead, replace the above <img> with the commented <span> below -->
+                      <!-- <span class="icon glyphicon glyphicon-stats"></span> -->
+                      <h2 class="title">Huset</h2>
+                      <p>Vi bor i ett hus från 1893 på 430 Kvadrat. Huset är uppdelat i flertalet lägenhet...</p>
+                      <!-- to make a popup/modal link add an onClick function call to the function:
+                        - populate_and_open_modal(event, '[id of popup content container - see below]') -->
+                      <p><a href="" onclick="populate_and_open_modal(event, 'modal-content-3');" class="btn btn-outline-inverse btn-sm">Läs mer</a></p>
+
+                      <!-- content which will be shown in the popup/modal when clicking on the above link
+                        - it is important to set a unique id -->
+                      <div class="content-to-populate-in-modal" id="modal-content-3">
+                        <h1>Huset</h1>
+                        <p><img data-img-src="assets/images/own/house-md.png" class="lazy rounded_border hover_effect pull-left" alt="Lorem Ipsum">
+<p>Vi bor i ett hus från 1893 på 430 kvadratmeter. Huset är uppdelat i flertalet lägenhet,tre tvårumslägenheter åtta Enrummare samt en fullt utrustad lägenhet. De flesta rum har kakelugnar. Vi har två kök, ett större allrum med matsal samt en bastu som eldas för gemensamt bad varje fredag. Huset har även en större källare med snickarbod samt en mat-trädgård med flertalet fruktträd och buskar (äpple, päron, krusbär mm). För ljumma sommarnätter finns det två större balkonger, en inglasad balkong, en inglasad farstu samt en balkong tillhörande ett av de större rummen.</p>
+
+<p>Huset värms upp av fjärrvärme kopplade till vattenburna element. Vi har ett nyinstallerat ventilationssystem. Vi planerar att inom kort uppdatera vårt 24/1 internet till 100/100 fiberkabel. I allrummet finns det tv med alldeles för många kanaler. Det finns även gemensam telefon.</p>
+
+<p>Huset ligger i de vackra bostadsområdet Söder. Här finns flera vackra villor från sekelskiftet och det är en trygg atmosfär med mycket barnfamiljer. En kort promenad bort hittar du först ett stall med hästar och sedan Bokhultet – en av Växjös pärlor. Det är ett naturreservat som består av majestätiska bokträd, skyddat naturliv (mest fågel) och berggrundasjön. En kvarts promenad åt andra hållet och du är mitt i Växjös centrum med restauranger, barer och affärer. Universitetet nås med 15 minuter cykling eller 40 minuter promenad längst Växjö-sjön.</p>
+                      </div><!-- #modal-content-3 -->
+                      <!-- end: slide content to edit -->
+                    </div>
+                  </div><!-- .item -->
+                  <!-- END: CAROUSEL SLIDE 2 -->
+
+                  <!-- CAROUSEL SLIDE 3 -->
+                  <div class="item">
+                    <div class="carousel-text-content">
+                      <!-- start: slide content to edit -->
+                      <img src="assets/images/other_images/transp-image7.png" class="icon" alt="Lorem Ipsum">
+                      <!-- if you want to use bootstrap glyphicons instead, replace the above <img> with the commented <span> below -->
+                      <!-- <span class="icon glyphicon glyphicon-lock"></span> -->
+                      <h2 class="title">Att bo på sämjan ?</h2>
+                      <p>På Sämjan hittar du alla åldrar och familje-konstellationer. Det som sammanför oss är vår önskan för gemenskap...</p>
+                      <!-- to make a popup/modal link add an onClick function call to the function:
+                        - populate_and_open_modal(event, '[id of popup content container - see below]') -->
+                      <p><a href="" onclick="populate_and_open_modal(event, 'modal-content-4');" class="btn btn-outline-inverse btn-sm">Läs mer</a></p>
+
+                      <!-- content which will be shown in the popup/modal when clicking on the above link
+                        - it is important to set a unique id -->
+                      <div class="content-to-populate-in-modal" id="modal-content-4">
+                        <h1>Att bo på sämjan</h1>
+                        <p><img data-img-src="assets/images/other_images/transp-image7.png" class="lazy rounded_border hover_effect pull-left" alt="Lorem Ipsum">
+<p>På Sämjan hittar du alla åldrar och familje-konstellationer. Det som sammanför oss är vår önskan för gemenskap och våra liknande värderingar (se värdegrunden). I varandra får vill sällskap, stöd och hjälp med allt från skoluppgifter till barnpassning.</p>
+
+<p>På Sämjan har vi gemensamma måltider varje dag. Beroende på antalet medlemmar bestäms de antal gånger i månaden vi skall laga mat. Alla ansvarar för att hålla huset i fint skick och har olika ansvarsområden, allt från att hålla tvättstugan i ordning till bakning och gräsklippning. Genom att dela på arbetsuppgifter behöver vi göra mindre hushållssysslor än i ett eget boende samt lämnar ett mindre ekologisk fotspår med enbart en spis, kyl och bastu igång.</p>
+
+<h3>Hur söker man ?</h3>
+
+<p>När det finns ett ledigt rum kan man ansöka till Ingemar Haraldsson. Du blir då inbjuden att komma hit till Sämjan. Först får du se hur vi bor och vad det innebär att bo kollektivt. Du får också träffa alla medlemmar för att se om du tror att du skulle trivas. Vi har ofta flera intressenter som kommer på besök och beslutet om vem som flytta in görs på kollektiv-mötena som infaller varannan vecka. Där har vi en omröstning som måste vara enhällig för att beslut skall fattas. Efter det meddelas du och du är hjärtligt välkommen att gå röda mattan in och bli en del av familjen.</p>
+                      </div><!-- #modal-content-4 -->
+                      <!-- end: slide content to edit -->
+                    </div>
+                  </div><!-- .item -->
+                  <!-- END: CAROUSEL SLIDE 3 -->
+
+                </div><!-- .carousel-inner -->
+
+                <!-- Controls -->
+                <!-- the left/right arrows to move from one slide to the other -->
+                <a class="left carousel-control" href="#features-carousel" data-slide="prev"></a>
+                <a class="right carousel-control" href="#features-carousel" data-slide="next"></a>
+
+              </div><!-- #about-carousel -->
+
+            <!-- End: Section content to edit -->
+
+          </div><!-- .content-wrapper -->
+        </article><!-- .section-wrapper -->
+        <!-- ==================== END: SECTION TYPE: Carousel ==================== -->
+
+        <!-- ==================== SECTION TYPE: Features Grid ==================== -->
+        <!-- This type of section should contain a grid with separate items consisting of an icon and text -->
+        <!-- FOR EACH SECTION <article class="section-wrapper".. :
+             - remember to use a unique id,
+             - (optional) set a "data-custom-background-img" attribute with a link to custom background image which will be used when the viewer scrolls to this section -->
+        <article id="grid" class="section-wrapper clearfix" data-custom-background-img="assets/images/own/green_corner_mod.png">
+          <div class="content-wrapper clearfix">
+            <div class="col-sm-11 col-md-10 pull-right">
+
+              <!-- Start: Section content to edit -->
+
+                <h1 class="section-title">Värdegrund</h1>
+
+                <!-- grid -->
+                <!-- change class "clearfix-for-2cols" to number of columns to correspond with "col-md-6" class for each grid item -->
+                <!-- check add_clear_items_to_fix_grid_items_different_heights_issue() function -->
+                <section class="grid row clearfix clearfix-for-2cols">
+
+                  <!-- grid item -->
+                  <div class="grid-item col-md-6">
+                    <div class="item-content clearfix">
+                      <!-- <img data-img-src="assets/images/other_images/transp-image1.png" class="lazy icon" alt="Lorem Ipsum"> -->
+                      <!-- if you want to use a custom icon instead, replace the below <span> with the commented <img> above -->
+                      <span class="icon glyphicon glyphicon-tree-deciduous"></span>
+                      <div class="text-content">
+                        <h5>Miljö ansvar</h5>
+                        <p>Moder jord är vårt gemensamma ursprung och hem</p>
+                      </div>
+                    </div><!-- end: .item-content -->
+                  </div><!-- end: .grid-item -->
+
+                  <!-- grid item -->
+                  <div class="grid-item col-md-6">
+                    <div class="item-content clearfix">
+                      <!-- <img data-img-src="assets/images/other_images/transp-image6.png" class="lazy icon" alt="Lorem Ipsum"> -->
+                      <!-- if you want to use a custom icon instead, replace the below <span> with the commented <img> above -->
+                      <span class="icon glyphicon glyphicon glyphicon-home"></span>
+                      <div class="text-content">
+                        <h5>Bo tillsammands</h5>
+                        <p>I kollektivet sämjan bor vi tillsammans för att främja en positiv förändring mot en värld där solidaritet, jämlikhet och hållbarhet prioriteras.</p>
+                      </div>
+                    </div><!-- end: .item-content -->
+                  </div><!-- end: .grid-item -->
+
+                  <!-- grid item -->
+                  <div class="grid-item col-md-6">
+                    <div class="item-content clearfix">
+                      <!-- <img data-img-src="assets/images/other_images/transp-image7.png" class="lazy icon" alt="Lorem Ipsum"> -->
+                      <!-- if you want to use a custom icon instead, replace the below <span> with the commented <img> above -->
+                      <span class="icon glyphicon glyphicon glyphicon-cutlery"></span>
+                      <div class="text-content">
+                        <h5>Vegetarisk mat</h5>
+                        <p>Både av hänsyn av vår egen och jordens hälsa väljer vi vegetarisk mat, ekologisk tillverkad i största möjliga utsträckning.</p>
+                      </div>
+                    </div><!-- end: .item-content -->
+                  </div><!-- end: .grid-item -->
+
+                  <!-- grid item -->
+                  <div class="grid-item col-md-6">
+                    <div class="item-content clearfix">
+                      <!-- <img data-img-src="assets/images/other_images/transp-image4.png" class="lazy icon" alt="Lorem Ipsum"> -->
+                      <!-- if you want to use a custom icon instead, replace the below <span> with the commented <img> above -->
+                      <span class="icon glyphicon glyphicon glyphicon-heart"></span>
+                      <div class="text-content">
+                        <h5>Gemenskap</h5>
+                        <p>Tillsammans skapar vi en miljö som tryggar växande och respekt för allt liv. Vi strävar efter att leva i samklang med naturen för att värna om planetens resurser och vi utgår från dagens verklighet.</p>
+                      </div>
+                    </div><!-- end: .item-content -->
+                  </div><!-- end: .grid-item -->
+
+                  <div class="grid-item col-md-6">
+                    <div class="item-content clearfix">
+                      <!-- <img data-img-src="assets/images/other_images/transp-image4.png" class="lazy icon" alt="Lorem Ipsum"> -->
+                      <!-- if you want to use a custom icon instead, replace the below <span> with the commented <img> above -->
+                      <span class="icon glyphicon glyphicon glyphicon-globe"></span>
+                      <div class="text-content">
+                        <h5>Hållbarhet</h5>
+                        <p>Vi skapar hållbarhet genom omvandling av våra konsumtionsmönster.</p>
+                      </div>
+                    </div><!-- end: .item-content -->
+                  </div><!-- end: .grid-item -->
+
+                  <div class="grid-item col-md-6">
+                    <div class="item-content clearfix">
+                      <!-- <img data-img-src="assets/images/other_images/transp-image4.png" class="lazy icon" alt="Lorem Ipsum"> -->
+                      <!-- if you want to use a custom icon instead, replace the below <span> with the commented <img> above -->
+                      <span class="icon glyphicon glyphicon glyphicon-user"></span>
+                      <div class="text-content">
+                        <h5>Tolerans</h5>
+                        <p>Tolerans för olika uppfattningar förutsätts. Kollektivet löses genom samtal.</p>
+                      </div>
+                    </div><!-- end: .item-content -->
+                  </div><!-- end: .grid-item -->
+
+                </section><!-- end: grid -->
+                <!-- more about vrdegrund -->
+
+                <p><a href="" onclick="populate_and_open_modal(event, 'modal-content-5');" class="btn btn-outline-inverse btn-sm">Läs mer</a></p>
+<div class="content-to-populate-in-modal" id="modal-content-5">
+<h2>Värdegrund med praktiska konsekvenser för kollektivet Sämjan</h2>
+<p><img data-img-src="assets/images/other_images/transp-image7.png" class="lazy rounded_border hover_effect pull-left" alt="Lorem Ipsum">
+<p>Kollektivet Sämjan är avsett för människor som vill bo tillsammans med andra för ömsesidig glädje och nytta, och som delar våra grundläggande värderingar. Vi inser att skapandet av en bättre värld kräver en långsiktigt hållbar livsstil. Vi har följande värderingar.</p>
+
+<p>Moder Jord ska vördas och respekteras som vårt gemensamma ursprung och hem.
+Vi känner solidaritet med människor i hela världen och respekt för alla former av liv. Det vi gör för andra gör vi för oss själva. Människosläktet är en enhet. Varje människas värde skall respekteras.
+Kollektivmedlemmar i olika åldrar och samhällsställningar bör kunna åtnjuta respekt och hänsyn till var och ens förutsättningar. Vi ska sträva efter att barnen får en så stimulerande uppväxtmiljö som möjligt.</p>
+
+<p>Tolerans för olika uppfattningar är viktig. Vi ska försöka lösa konflikter genom samtal.
+ </p>
+<p>När det gäller vår livsstil bör vi utgå från dagens verklighet och se i vilka avseenden en förändring är nödvändig. Vår planets resurser räcker inte till på långa vägar om alla på jorden skulle leva som vi i västvärlden. Då bör vi se hur vi skulle kunna leva ett gott liv på sätt som alla skulle kunna omfatta.</p>
+
+<p>En förändring behövs ur många olika synvinklar. Här följer några:</p>
+
+<ul >
+  <li>Det är inte möjligt att försörja jordens befolkning med så stor del animaliska livsmedel som i västvärlden idag. Därför ska Sämjan ha vegetarisk eller laktovegetarisk kosthållning.</li>
+  <li>Både av hänsyn till vår egen och jordens hälsa bör den mat vi äter vara ekologisk i största möjliga utsträckning. Därför väljer vi kravmärkt eller motsvarande där det är möjligt och lämpligt.   Av solidaritetsskäl väljer vi fair-trade-märkta livsmedel där de finns.</li>
+  <li>Vi strävar efter att den värme och energi vi förbrukar ska vara förnyelsebar och undviker därför fossil energi. Vi har andel i OX2 Vindkraft och huset är anslutet till VEAB:s flisbaserade fjärrvärmesystem. Vi eftersträvar låg energiförbrukning. Onödigt slöseri med energi bör undvikas.</li>
+  <li>När det gäller person- och varutransporter undviker vi fossila drivmedel och väljer kollektiva färdmedel om sådana finns och är ekonomiskt försvarliga. Ännu hellre väljer vi att förflytta oss till fots eller med cykel.</li>
+  <li>Alkohol och droger orsakar stora samhällsproblem och svåra lidanden för dem som drabbas. Förbjudna droger får därför varken finnas eller brukas inom kollektivet. Rökförbud råder inom hela huset. På gemensamma fester ska ej heller alkohol förekomma. Kollektivmedlem som har alkoholproblem kan förvänta sig stöd från de övriga i kollektivet i sin strävan att bryta beroendet.</li>
+</ul>
+
+
+
+            </div><!-- .col-sm-11 -->
+          </div><!-- .content-wrapper -->
+        </article><!-- .section-wrapper -->
+
+
+        <!-- ==================== SECTION TYPE: Contact ==================== -->
+        <!-- This type of section should contain text (contact details) and a contact form -->
+        <!-- FOR EACH SECTION <article class="section-wrapper".. :
+             - remember to use a unique id,
+             - (optional) set a "data-custom-background-img" attribute with a link to custom background image which will be used when the viewer scrolls to this section -->
+        <article id="contact" class="section-wrapper clearfix" data-custom-background-img="assets/images/own/Interior01.JPG">
+          <div class="content-wrapper clearfix">
+
+              <!-- Start: Section content to edit -->
+
+              <h1 class="section-title">Kontakt</h1>
+
+                <!-- CONTACT DETAILS -->
+                <div class="contact-details col-sm-12 ">
+                  <p>Valhallagatan 34<br/>34535<br/>Växjö</p>
+                  <p>Tel: 0470 22 875</p>
+                  <p><a href="mailto:ylva.a.eriksson@hotmail.com">ylva.a.eriksson@hotmail.com</a></p>
+                </div>
+                <!-- END: CONTACT DETAILS -->
+
+
+          </div><!-- .content-wrapper -->
+        </article><!-- .section-wrapper -->
+        <!-- ==================== ENDL SECTION TYPE: Contact ==================== -->
+
+      </section><!-- #main-content -->
+      <!-- ==================== END: MAIN CONTENT ==================== -->
+
+      <!-- Footer -->
+      <section id="footer">
+
+        <!-- Go to Top -->
+        <div id="go-to-top" onclick="scroll_to_top();"><span class="icon glyphicon glyphicon-chevron-up"></span></div>
+
+        <!-- ==================================================================
+        SOCIAL ICONS
+        ==================================================================  -->
+        <!-- Each social icon item consists of the following:
+             - Link to the social page in href of <a>
+             - social icon in the <img> - a list of social icons options are found in the directory assets/images/theme_images/social_icons/ -->
+        <ul class="social-icons">
+          <li><a href="#" target="_blank" title="Facebook"><img src="assets/images/theme_images/social_icons/facebook.png" alt="Facebook"></a></li>
+          <li><a href="#" target="_blank" title="Twitter"><img src="assets/images/theme_images/social_icons/twitter.png" alt="Twitter"></a></li>
+          <li><a href="#" target="_blank" title="Google+"><img src="assets/images/theme_images/social_icons/googleplus.png" alt="Google+"></a></li>
+        </ul>
+        <!-- ==================== END: Social Icons ==================== -->
+
+        <!-- copyright text -->
+        <div class="footer-text-line">&copy; 2014 Nils Eriksson</div>
+      </section>
+      <!-- end: Footer -->
+
+    </div><!-- #outer-container -->
+    <!-- end: Outer Container -->
+
+    <!-- Modal -->
+    <!-- DO NOT MOVE, EDIT OR REMOVE - this is needed in order for popup content to be populated in it -->
+    <div class="modal fade" id="common-modal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <div class="modal-body clearfix">
+          </div><!-- .modal-body -->
+        </div><!-- .modal-content -->
+      </div><!-- .modal-dialog -->
+    </div><!-- .modal -->
+
+    <!-- Javascripts
+    ================================================== -->
+
+    <!-- Jquery and Bootstrap JS -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="assets/js/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Easing - for transitions and effects -->
+    <script src="assets/js/jquery.easing.1.3.js"></script>
+
+    <!-- background image strech script -->
+    <script src="assets/js/jquery.backstretch.min.js"></script>
+    <!-- background image fix for IE 9 or less
+       - use same background as set above to <body> -->
+    <!--[if lt IE 9]>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      jQuery("#outer-background-container").backstretch("assets/images/other_images/bg5.jpg");
+    });
+    </script>
+    <![endif]-->
+
+    <!-- detect mobile browsers -->
+    <script src="assets/js/detectmobilebrowser.js"></script>
+
+    <!-- owl carousel js -->
+    <script src="assets/js/owl-carousel/owl.carousel.min.js"></script>
+
+    <!-- lightbox js -->
+    <script src="assets/js/lightbox/js/lightbox.min.js"></script>
+
+    <!-- intro animations -->
+    <script src="assets/js/wow/wow.min.js"></script>
+
+    <!-- Custom functions for this theme -->
+    <script src="assets/js/functions.js"></script>
+    <script src="assets/js/initialise-functions.js"></script>
+
+    <!-- IE9 form fields placeholder fix -->
+    <!--[if lt IE 9]>
+    <script>contact_form_IE9_placeholder_fix();</script>
+    <![endif]-->
+
+  </body>
+</html>
